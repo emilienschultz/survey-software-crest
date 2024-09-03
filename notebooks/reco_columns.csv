@@ -76,28 +76,28 @@ Are you using specific software installed by the GENES (except office software s
 "Among the software offer by the GENES (installed specifically on the computers), which ones do you use?  There are many software programs; only answer for those you are using  This question is important since the IT team will deactivate unused softwares  [WolframScript]",
 "Among the software offer by the GENES (installed specifically on the computers), which ones do you use?  There are many software programs; only answer for those you are using  This question is important since the IT team will deactivate unused softwares  [Zotéro]",
 Do you use other software installed by GENES that are important for you ? ,important_genes_software
-Do you currently pay for softwares or online services using your research funds ? ,
-Could you precise the most important ones ? ,
-Do you currently pay out of your pocket for software/online services for your research activities ? ,
-Could you precise which ones ? ,
-Is there any software you would need but that are not currently available ? ,
-"Do you think it is important to organize more training sessions on software and IT offerings, for instance new solutions ? ",
-Do you have any suggestion ?,
-Do you perform digital processing that involves data (including simulation data) ? ,
-What kind of data do you use ? [Numeric],
-What kind of data do you use ? [Text],
-What kind of data do you use ? [Audio],
-What kind of data do you use ? [Video/Image],
-What kind of data do you use ? [Other],
+Do you currently pay for softwares or online services using your research funds ? ,paying_software_projects
+Could you precise the most important ones ? ,paying_software_projects_precision
+Do you currently pay out of your pocket for software/online services for your research activities ? ,paying_software_perso
+Could you precise which ones ? ,paying_software_perso_precision
+Is there any software you would need but that are not currently available ? ,software_need
+"Do you think it is important to organize more training sessions on software and IT offerings, for instance new solutions ? ",training_offer
+Do you have any suggestion ?,training_offer_ideas
+Do you perform digital processing that involves data (including simulation data) ? ,digital_processing
+What kind of data do you use ? [Numeric],data_numeric
+What kind of data do you use ? [Text],data_text
+What kind of data do you use ? [Audio],data_audio
+What kind of data do you use ? [Video/Image],data_image
+What kind of data do you use ? [Other],data_other
 "On which computers do you perform these data processing tasks/computations ?  [Locally, with my office computer]",
 "On which computers do you perform these data processing tasks/computations ?  [Locally, on my laptop (GENES/CREST or personal)]",
 "On which computers do you perform these data processing tasks/computations ?  [Locally, on a dedicated computer]",
 On which computers do you perform these data processing tasks/computations ?  [With GENES servers],
 On which computers do you perform these data processing tasks/computations ?  [With server outside GENES infrastructure],
 Could you precise which servers ?,
-Do you have access to sufficient resources to perform your data processing tasks ? ,
-Could you precise why ?,
-What is the typical size of the datasets you usually handle (excluding exceptional cases)?  (Please provide an approximate order of magnitude) ,
+Do you have access to sufficient resources to perform your data processing tasks ? ,enough_ressources
+Could you precise why ?,enough_ressources_no
+What is the typical size of the datasets you usually handle (excluding exceptional cases)?  (Please provide an approximate order of magnitude) ,dataset_size
 "Where do you currently store your data ?  [Locally, with my office computer]",
 "Where do you currently store your data ?  [Locally, on my laptop (GENES/CREST or personal)]",
 "Where do you currently store your data ?  [Locally, on a dedicated computer]",
@@ -106,11 +106,11 @@ Where do you currently store your data ?  [With other GENES servers (than ABRA)]
 Where do you currently store your data ?  [With the CASD outside GENES],
 Where do you currently store your data ?  [With other servers outside GENES],
 Could you precise where ?,
-"Regarding data storage, do you think you have enough space for now and the near future ? ",
-Could you please specify your needs by detailing the current limitations? ,
-Do you currently produce data through experimentation ? ,
+"Regarding data storage, do you think you have enough space for now and the near future ? ",enough_storage
+Could you please specify your needs by detailing the current limitations? ,enough_storage_no
+Do you currently produce data through experimentation ? ,experimentation
 You can contact the economic lab ipel.experience@polytechnique.fr or directly claire.ecotiere@ensae.fr for more information ,
-Are you using the ABRA (known also as SRVSTO) server ? ,
+Are you using the ABRA (known also as SRVSTO) server ? ,abra
 Have you heard about the GENES datalab and Onyxia ? ,onyxia
 You can get more information on the Onyxia datalab here https://onyxia.lab.groupe-genes.fr/.  A video of presentation : https://genes.sharepoint.com/:v:/s/DSIT/ETrZPsGU879JgC6mCg2i6kIB3ay6332lYN9n0TNvK4RLDw?e=wanzBV.  You can also contact DSIT at alexis.guyot@groupe-genes.fr | Salle 3080 ,
 Are you using one or several programming langages in your research (except description langages as LateX) [R],programmation_r
@@ -120,13 +120,13 @@ Are you using one or several programming langages in your research (except descr
 Are you using one or several programming langages in your research (except description langages as LateX) [Sas],programmation_sas
 Are you using one or several programming langages in your research (except description langages as LateX) [Julia],programmation_julia
 Are you using one or several programming langages in your research (except description langages as LateX) [Other],programmation_autre
-"In general, would you like more information about the laboratory's digital services ? ",
-The issues of reproducibility of computational results are increasingly discussed within scientific communities.   Which statement best describes your experience : ,
+"In general, would you like more information about the laboratory's digital services ? ",more_information
+The issues of reproducibility of computational results are increasingly discussed within scientific communities.   Which statement best describes your experience : ,reproducibility
 "Generative AI-based services (such as ChatGPT, Claude, etc.) are increasingly being developed. Do you currently use such services for your research? ",gpt_use
-For what kind of uses ?,
-Which solution are you using ? ,
-Which statement best describes your experience with the increasing adoption of open source and free software solutions in laboratories ? ,
-"In your opinion, will your digital practices evolve in the future, and if so, how? (e.g., infrastructure needs, etc.) ",
+For what kind of uses ?,gpt_use_reason
+Which solution are you using ? ,gpt_use_choice
+Which statement best describes your experience with the increasing adoption of open source and free software solutions in laboratories ? ,opensource
+"In your opinion, will your digital practices evolve in the future, and if so, how? (e.g., infrastructure needs, etc.) ",evolution
 This is the end of the survey.  Do you have any elements you would like us to know regarding software and computational practices at CREST ? ,general_comments
 Total time,time
 Group time: Your situation,
